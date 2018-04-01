@@ -1,0 +1,9 @@
+<h2>Hello ${data.name}!</h2>
+<ul if(data.colors.length)>
+    <li style="color: ${color}" for(color in data.colors)>
+        ${color}
+    </li>
+</ul>
+<div else>
+    No colors!
+</div>

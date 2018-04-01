@@ -1,0 +1,20 @@
+{
+  "name": "marko_demo_01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lasso-marko": "^2.4.0",
+    "marko": "^4.9.4"
+  },
+  "browser": {
+    "03-on-the-server/hello.js": "03-on-the-server/hello.browser.js",
+    "01-click-count.marko/click-count.js": "01-click-count.marko/click-count.browser.js",
+    "01/hello-world.js": "01/hello-world.browser.js"
+  }
+}
