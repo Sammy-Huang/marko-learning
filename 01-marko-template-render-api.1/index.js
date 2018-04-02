@@ -1,6 +1,6 @@
 require('marko/node-require').install();
  
-var template = require('./hello-world.marko');
+var template = require('./index.marko');
  
 template.render({
     name: 'World',

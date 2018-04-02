@@ -4,7 +4,7 @@
 var marko_template = module.exports = require("marko/src/vdom").t(),
     components_helpers = require("marko/src/components/helpers"),
     marko_registerComponent = components_helpers.rc,
-    marko_componentType = marko_registerComponent("/marko_demo_01$1.0.0/03-on-the-server/hello.marko", function() {
+    marko_componentType = marko_registerComponent("/marko_demo_01$1.0.0/03-on-the-server.0/hello.marko", function() {
       return module.exports;
     }),
     marko_renderer = components_helpers.r,
